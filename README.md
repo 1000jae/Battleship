@@ -1,33 +1,57 @@
 # Battleship-Solitaire
 CSC384 A3: Constraint Satisfaction Problem
 
-Goal: given a starter board of the game, solve using Ac-3 arc consistency.
+Goal: given a starter board of the game, solve the Battleship Solitaire using AC-3 arc consistency.
 
-Types of Ships
+Types of Ships:
 - Submarines (1x1)
 - Destroyers (1x2)
 - Cruisers (1x3)
 - Battleships (1x4)
 - Carriers (1x5)
 
-Example Input
-
-212212
-040114
-32100
-000000
-000S00
-000000
-00000v
-000000
-000000
-
- 
+Rules:
+1. A ship is either horizontal or vertical, never diagonal.
+2. The input provides the number of each type of ship
+3. The input provides the number of ship parts in each row and column
+4. Each ship must be surrounded by at least one square of water on all sides and corners.
+4. Some inputs will indicate whether some squares are water or a part of a ship. 
 
 
 
+Example: 
+Input
+    212212          <--- Number of ship parts in each row
+    040114          <--- Number of ship parts in each column
+    32100           <--- Number of each type of ship
+    000000
+    000S00
+    000000
+    00000v
+    000000
+    000000
 
-Command
+- '0': unknown 
+- ‘S’: submarine
+- ‘.’: water
+- ‘<’: left end of a horizontal ship
+- ‘>’: right end of a horizontal ship
+- ‘^’: top end of a vertical ship
+- ‘v’: bottom end of a vertical ship
+- ‘M’: middle segment of a ship
 
-python3 A3/battle.py --inputfile inputs/inputfile --outputfile outputs/outputfile
+Output
+    .S...S
+    ...S..
+    .^...^
+    .M...v
+    .v....
+    ....<>
+
+
+
+
+Command:
+
+python3 battle.py --inputfile inputs/inputfile --outputfile outputs/outputfile
 
