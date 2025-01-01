@@ -23,3 +23,11 @@ Example Input
 000000
 
  
+
+
+
+
+Command
+
+python3 A3/battle.py --inputfile inputs/inputfile --outputfile outputs/outputfile
+
