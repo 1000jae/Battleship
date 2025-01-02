@@ -21,15 +21,15 @@ Rules:
 
 Example: 
 Input
-    212212          <--- Number of ship parts in each row
-    040114          <--- Number of ship parts in each column
-    32100           <--- Number of each type of ship
-    000000
-    000S00
-    000000
-    00000v
-    000000
-    000000
+    212212          <--- Number of ship parts in each row </br>
+    040114          <--- Number of ship parts in each column </br>
+    32100           <--- Number of each type of ship </br>
+    000000 </br>
+    000S00 </br>
+    000000 </br>
+    00000v </br>
+    000000 </br>
+    000000 </br>
 
 - '0': unknown 
 - ‘S’: submarine
@@ -41,17 +41,17 @@ Input
 - ‘M’: middle segment of a ship
 
 Output
-    .S...S
-    ...S..
-    .^...^
-    .M...v
-    .v....
-    ....<>
+    .S...S </br>
+    ...S.. </br>
+    .^...^ </br>
+    .M...v </br>
+    .v.... </br>
+    ....<> </br>
 
 
 
 
 Command:
 
-python3 battle.py --inputfile inputs/inputfile --outputfile outputs/outputfile
+python3 battle.py --inputfile inputs/<inputfile> --outputfile outputs/<outputfile>
 
