@@ -19,8 +19,8 @@ Rules:
 
 
 
-Example: 
-Input
+Example: </br>
+Input </br>
     212212          <--- Number of ship parts in each row </br>
     040114          <--- Number of ship parts in each column </br>
     32100           <--- Number of each type of ship </br>
@@ -40,7 +40,7 @@ Input
 - ‘v’: bottom end of a vertical ship
 - ‘M’: middle segment of a ship
 
-Output
+Output </br>
     .S...S </br>
     ...S.. </br>
     .^...^ </br>
