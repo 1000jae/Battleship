@@ -1,6 +1,4 @@
 # Battleship-Solitaire
-CSC384 A3: Constraint Satisfaction Problem
-
 Goal: given a starter board of the game, solve the Battleship Solitaire using AC-3 arc consistency.
 
 Types of Ships:
