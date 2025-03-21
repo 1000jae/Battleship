@@ -54,5 +54,5 @@ Output </br>
 
 Command:
 
-python3 battle.py --inputfile inputs/<inputfile> --outputfile outputs/<outputfile>
+python3 battle.py --inputfile inputs/inputfile --outputfile outputs/outputfile
 
