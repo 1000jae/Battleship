@@ -1,4 +1,7 @@
 # Battleship-Solitaire
+
+Project for CSC384 at UofT, 2024. Thus, source code, description, and tests were provided by the instructor.
+
 Goal: given a starter board of the game, solve the Battleship Solitaire using AC-3 arc consistency.
 
 Types of Ships:
